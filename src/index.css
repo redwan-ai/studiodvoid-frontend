@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #101010;
+}
+.jose-font {
+  font-family: "Josefin Sans", sans-serif;
+}

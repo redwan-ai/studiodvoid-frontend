@@ -1,0 +1,29 @@
+.client-card:hover .qouteIcon {
+  color: #ff6600;
+  transition: all 0.2s ease;
+}
+.client-card {
+  box-shadow: 16px 16px 0px 5px rgba(51, 51, 51, 0.75);
+  transition: all 0.2s ease;
+}
+.client-card:hover {
+  box-shadow: 16px 16px 0px 5px rgba(255, 102, 0, 0.75);
+}
+
+@media only screen and (max-width: 1000px) {
+  .client-card {
+    box-shadow: 10px 10px 0px 0px rgba(51, 51, 51, 0.75);
+  }
+  .client-card:hover {
+    box-shadow: 10px 10px 0px 0px rgba(255, 102, 0, 0.75);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .client-card {
+    box-shadow: 7px 7px 0px 0px rgba(51, 51, 51, 0.75);
+  }
+  .client-card:hover {
+    box-shadow: 7px 7px 0px 0px rgba(255, 102, 0, 0.75);
+  }
+}
